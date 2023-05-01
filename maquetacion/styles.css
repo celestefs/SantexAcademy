@@ -1,6 +1,3 @@
-
-
-
 html {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -8,24 +5,252 @@ html {
 
 p {
     margin-right: 2em;
-    font-weight: bold;
+    font-weight: lighter;
+    font-family: Inter, Arial, Helvetica, sans-serif;
     font-size: 0.9em;
-    font-weight: 500;
 }
 
 button {
     background-color: white;
     border-radius: 30px;
-    padding: 0px 1.5em;
-    height: 2.5em;
-    border: 2px solid black;
-    font-size: 0.8em;
+    padding: 0px 0.80em;
     width: 8em;
+    height: 2.7em;
+    border: 2px solid black;
+    font-size: 13px !important;
+    cursor: pointer;
 }
 
-div#navbar-left img {
-    width: 8em;
+.primero:hover {
+    background-color: black;
+    color:white;
+    transition: .2s;
 }
+
+#navbar {
+    position: fixed;
+    overflow: hidden;
+    width: 100%; 
+    margin: 0;
+    padding: 15px 0px !important;
+    background-color: white;
+}
+
+div#navbar-left {
+    width: 8em;
+    padding-left: 111px;
+}
+
+#intro {
+    padding: 115px 30px;
+}
+
+#intro-text {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    color: #201b24;
+    text-align: center;
+    font-size: 14px;
+}
+
+h1 {
+    padding: 10px 40px;
+}
+
+#intro-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.90em;
+}
+
+#contacto {
+    width: 10em;
+    color: #201b24;
+}
+
+#contacto:hover {
+    background-color: black;
+    color: white;
+}
+
+#sumate {
+    margin: 0px 20px;
+    border-color: #6b53f0;
+}
+
+#sumate:hover {
+    background-color: #6b53f0;
+    color: white;
+}
+
+#container1 {
+    padding: 100px 143px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #201b24;
+    color:white;
+}
+
+#impacto-left {
+    width: 35%;
+    margin-right: 10px;
+    padding: 0px 0px 50px 70px;
+}
+
+#impacto-right{
+    width: 35%;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteo{
+    font-size: 14px;
+    color: #8c939c;
+}
+
+.conteo-num{
+    font-size: 50px; 
+    font-weight: bold;
+    width: 2em;
+    color: white;
+}
+
+#imagen {
+    background: url(twp-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.subtitle {
+padding: 90px 0px 10px 70px;
+font-size: 30px;
+color: #201b24;
+}
+
+#img-left {
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 40px;
+    padding: 0px 0px 10px 40px;
+}
+
+#img-right {
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    padding: 0px 40px 10px 0px;
+}
+
+.containers-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px !important;
+}
+
+.containers-flex .primero {
+    margin-top: 10px;
+}
+
+.cont-left {
+    padding: 0px 81px; 
+    margin: 0px 23px;
+}
+
+.cont-right {
+    padding: 0px 81px;
+    margin: 0px 23px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+#container2 {
+    background-color:#f4f4f5;
+}
+
+.mini-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 30px 50px;
+}
+
+.id-pics {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 264px;
+    height:195px;
+}
+
+.mini-container p, h5 {
+    text-align: center;
+}
+
+h5 {
+    font-size: 20px;
+    margin: 20px 0px 0px;
+}
+
+.mini-container p {
+    margin: 5px;
+    color: #8c939c;
+}
+
+
+.button-small {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    font-weight: bold !important;
+    padding-left: 6px !important;
+    margin: 12px 114px;
+
+}
+
+.button-small:hover {
+    background-color: #6b53f0;
+    color: white;
+    border-color: #6b53f0;
+}
+
+footer {
+    background-color: #201b24;
+    color: #D9D9D9;
+    padding: 15px 60px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#container3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+a {
+    color: #D9D9D9;
+    text-decoration: none;
+    margin: 50px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a:hover {
+    color: white;
+}
+
 
 @media (width >= 2500px) {
     html {
@@ -33,8 +258,69 @@ div#navbar-left img {
     }
 }
 
-@media (width >= 3500px) {
+@media (width >= 3500px){
     html {
         font-size: 32px;
     }
 }
+
+@media (max-width: 1024px) {
+
+    .containers-flex, .mini-container, #container3, #navbar {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #navbar-right {
+        width: 100%;
+    }
+    
+    #img-right, #img-left {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .id-pics {
+        width: 50% !important;
+        width: 264px !important;
+    }
+
+    #container3 p, a {
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 600px) {
+
+    #navbar, #intro, .containers-flex { 
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #navbar-right {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        display: block;
+    }
+
+    #intro-button, #intro-text {
+        width: 100%;
+    }
+
+    #impacto-right, #impacto-left {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .containers-flex p, img {
+        display: block;
+        justify-content: center;
+        text-align: justify;
+        align-items: center;
+        width: 100% !important;
+        padding: 0px;
+    }
+  }
